@@ -1,20 +1,15 @@
-<head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-</head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-<div class="container">
-  <h1>Wikipedia Viewer</h1>
-  <h3>Click <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button type="button" class="btn btn-outline-dark">here</button></a> for a totally random article</h3>
- 
-    <div class="container">
+<body>
+  <div class="container">
+    <h1>Wikipedia Viewer</h1>
+	  <form id="searchItem" onsubmit="return false">
+      <input type="search" id="searchInput" name="search" autocomplete="off" placeholder="Search" style="text-align:center">
+      <button type="button" id="btn" onclick="getArticle()"><i class="fa fa-search"></i></button>
+    </form>
+    <span>Click <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">here</a> for a random article</span><hr>
+    <div id="result"></div>
+  </div>
+</body>
 
-  <input type="text" placeholder="Search..." id="search"></input>
-<button type="button" id="searchbtn"><i class="fa fa-search"></i></button>
-  
-</div>
-<div class="margin">
-  <ul id="output">
-
-  </ul>
-</div>
    
