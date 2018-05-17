@@ -3,14 +3,51 @@
   margin-top: 5%;
 }
 
-h1, h3 {
-  margin-bottom: 10%;
+input[type=search] {
+	background-color: white;
+	color: black;
+	margin: 15px 0px 15px 15px;
+	font-size: 15px;
+	box-sizing:border-box;
+	border: 1px solid black;
+	border-radius: 50px;
 }
 
-button:hover {
-  cursor: pointer;
+input[type=search]:focus {
+  outline-style: none;
 }
 
-i:hover {
-  cursor: pointer;
+#btn {
+  background-color: transparent;
+  border: none;
+	color: black;
+	cursor: pointer;  
+	font-size: 20px;
+  padding-left: 5px;
+}
+
+#result {
+	text-align: center;
+}
+
+.outputItem {
+	background-color: white;
+  border: .4px solid black;
+	border-radius: 25px;
+	color: black;
+	cursor: pointer;
+	margin: 20px;
+	padding: 5px 28px;
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+  transition: box-shadow .2s ease-in-out;
+}
+
+div.outputItem:hover {
+	background-color: white;
+	border-color: black;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -1px -1px 1px rgba(255, 255, 255, .4);
+}
+
+a:hover {
+  text-decoration: none;
 }
