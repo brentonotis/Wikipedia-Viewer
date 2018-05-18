@@ -10,6 +10,15 @@ body {
   margin-top: 5%;
 }
 
+h1, span, i {
+  color: white;
+}
+
+h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 input[type=search] {
 	background-color: white;
 	color: black;
