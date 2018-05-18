@@ -69,3 +69,22 @@ a:hover {
   text-decoration: none;
 }
 
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: .75em;
+  text-shadow: 0 0 10px #111;
+  text-align: center;
+  color: white;
+}
+
+#img1 {
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background-size: 20px auto;
+  border-radius: 5px;
+}
